@@ -143,14 +143,14 @@
             <datasources>
                 <!-- ##DATASOURCES## -->
                 <datasource jndi-name="java:jboss/PostgresDS" pool-name="PostgresDS" statistics-enabled="true">
-                    <connection-url>jdbc:postgresql://postgres:5432/postgres</connection-url>
+                    <connection-url>jdbc:postgresql://postgresql-13:5432/test</connection-url>
                     <connection-property name="socketTimeout">
                         310
                     </connection-property>
                     <driver>postgresql-custom</driver>
                     <security>
-                        <user-name>postgres</user-name>
-                        <password>postgres</password>
+                        <user-name>test</user-name>
+                        <password>RedHat1!</password>
                     </security>
                     <validation>
                         <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.postgres.PostgreSQLValidConnectionChecker"/>
