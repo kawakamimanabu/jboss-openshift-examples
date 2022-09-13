@@ -142,7 +142,7 @@
         <subsystem xmlns="urn:jboss:domain:datasources:5.0">
             <datasources>
                 <!-- ##DATASOURCES## -->
-                <datasource jndi-name="java:jboss/PostgresDS" pool-name="PostgresDS">
+                <datasource jndi-name="java:jboss/PostgresDS" pool-name="PostgresDS" statistics-enabled="true">
                     <connection-url>jdbc:postgresql://postgres:5432/postgres</connection-url>
                     <connection-property name="socketTimeout">
                         310
