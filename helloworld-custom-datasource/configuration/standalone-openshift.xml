@@ -150,7 +150,7 @@
                     <driver>postgresql-custom</driver>
                     <security>
                         <user-name>test</user-name>
-                        <password>RedHat1!</password>
+                        <password>test1!</password>
                     </security>
                     <validation>
                         <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.postgres.PostgreSQLValidConnectionChecker"/>
